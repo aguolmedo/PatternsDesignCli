@@ -65,6 +65,16 @@ Cliente .> ConcreteSubscriber
 
 - Subscribers pueden añadirse sin modificar el Publisher
 
+### Estructura Pull vs Push
+
+- En la estructura **pull**, el metodo polimorfico actualizar() **(*Puede tener otro nombre especifico*)** manda por parametro el publisherConcreto, para despues realizarle las peticiones necesarias para obtener los datos que quiere actualizar el observador.
+
+- En la estructura **push**, el metodo polimorfico actualizar() manda por parametro cada uno de los datos necesarios por el observador, evitando las peticiones siguientes.
+
+
+
+
+
 ## Secuencia
 
 ```plantuml
@@ -82,9 +92,3 @@ ConcretePublisher -> ConcreteSubscriber1 : actualizar()
 ConcretePublisher -> ConcreteSubscriber2 : actualizar()
 @enduml
 ```
-
-
-
-
-
-
