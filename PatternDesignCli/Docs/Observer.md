@@ -49,7 +49,7 @@ note right of ConcreteSubscriber::estadoSubscriber {
 ISubscriber <|.. ConcreteSubscriber
 IPublisher <|.. ConcretePublisher
 IPublisher o-> "0*" ISubscriber
-ConcretePublisher <- ConcreteSubscriber
+ConcretePublisher <. ConcreteSubscriber
 IPublisher <-- Cliente 
 Cliente .> ConcreteSubscriber
 @enduml
@@ -70,10 +70,6 @@ Cliente .> ConcreteSubscriber
 - En la estructura **pull**, el metodo polimorfico actualizar() **(*Puede tener otro nombre especifico*)** manda por parametro el publisherConcreto, para despues realizarle las peticiones necesarias para obtener los datos que quiere actualizar el observador.
 
 - En la estructura **push**, el metodo polimorfico actualizar() manda por parametro cada uno de los datos necesarios por el observador, evitando las peticiones siguientes.
-
-
-
-
 
 ## Secuencia
 
