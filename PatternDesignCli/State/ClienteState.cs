@@ -1,8 +1,10 @@
-﻿namespace PatternDesignCli.State;
+﻿using PatternDesignCli.TemplateMethod;
 
-public static class ClienteState
+namespace PatternDesignCli.State;
+
+public class ClienteState : PatternStrategy
 {
-    public static void EjecutarClienteState()
+    public void ejecutarCliente()
     {
 
         var customer = new CustomerContext();

@@ -1,10 +1,11 @@
 ﻿using System.Diagnostics;
+using PatternDesignCli.TemplateMethod;
 
 namespace PatternDesign.FactoryMethod;
 
-public class ClienteFactoryMethod
+public class ClienteFactoryMethod : PatternStrategy
 {
-    public static void EjecutarClienteFactoryMethod()
+    public void ejecutarCliente()
     {
         here:
         Console.WriteLine("Seleccione metodo de compra: ");

@@ -1,10 +1,11 @@
 ﻿using System.Diagnostics;
+using PatternDesignCli.TemplateMethod;
 
 namespace PatternDesignCli.Builder;
 
-public static class ClienteBuilder
+public class ClienteBuilder : PatternStrategy
 {
-    public static void ejecutarCliente()
+    public void ejecutarCliente()
     {
         
         Console.WriteLine("Seleccione que Auto desea crear: ");
@@ -32,13 +33,5 @@ public static class ClienteBuilder
                 Console.WriteLine("No se seleeciono un producto valido");
                 return;
         }
-        
-        
-
-        
-
-        
-
-
     }
 }

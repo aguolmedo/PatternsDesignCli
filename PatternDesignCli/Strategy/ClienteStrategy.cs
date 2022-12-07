@@ -1,12 +1,13 @@
 ﻿using System.Diagnostics;
 using System.Globalization;
+using PatternDesignCli.TemplateMethod;
 
 namespace PatternDesignCli.Strategy;
 
-public static class ClienteStrategy
+public  class ClienteStrategy : PatternStrategy
 {
     
-    public static void EjecutrarClienteStrategy()
+    public  void ejecutarCliente()
     {
         here: 
         Console.Clear();
