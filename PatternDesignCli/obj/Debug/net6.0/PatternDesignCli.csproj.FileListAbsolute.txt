@@ -1,0 +1,15 @@
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\bin\Debug\net6.0\PatternDesignCli.exe
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\bin\Debug\net6.0\PatternDesignCli.deps.json
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\bin\Debug\net6.0\PatternDesignCli.runtimeconfig.json
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\bin\Debug\net6.0\PatternDesignCli.dll
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\bin\Debug\net6.0\PatternDesignCli.pdb
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\obj\Debug\net6.0\PatternDesignCli.csproj.AssemblyReference.cache
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\obj\Debug\net6.0\PatternDesignCli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\obj\Debug\net6.0\PatternDesignCli.AssemblyInfoInputs.cache
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\obj\Debug\net6.0\PatternDesignCli.AssemblyInfo.cs
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\obj\Debug\net6.0\PatternDesignCli.csproj.CoreCompileInputs.cache
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\obj\Debug\net6.0\PatternDesignCli.dll
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\obj\Debug\net6.0\refint\PatternDesignCli.dll
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\obj\Debug\net6.0\PatternDesignCli.pdb
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\obj\Debug\net6.0\PatternDesignCli.genruntimeconfig.cache
+C:\Users\agual\Documents\facultad\DSI\Patrones\PatternDesignCli\PatternDesignCli\obj\Debug\net6.0\ref\PatternDesignCli.dll
