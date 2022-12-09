@@ -1,4 +1,4 @@
-﻿namespace PatternDesignCli.TemplateMethod;
+﻿namespace PatternDesignCli;
 
 public interface PatternStrategy
 {

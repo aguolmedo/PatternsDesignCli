@@ -1,0 +1,28 @@
+
+
+public class GestorNotificaciones : ISujeto
+{
+    private Pedido _pedido;
+    private List<ISubscriptor> _subscriptores;
+
+    public void addSubscriber(ISubscriptor sub)
+    {
+        _subscriptores.Add(sub);
+    }
+
+    public void notify(Pedido _pedido)
+    {
+        foreach (var sub in _subscriptores)
+        {
+            sub.update();
+        }
+    }
+
+    
+
+    public void removeSubscriber(ISubscriptor sub)
+    {
+        _subscriptores.Remove(sub);
+    }
+
+}

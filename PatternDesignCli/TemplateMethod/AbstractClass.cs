@@ -3,7 +3,6 @@
 public abstract class AbstractClass
 {
     
-
     public void TemplateMethod()
     {
         BaseOperation1();
